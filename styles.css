@@ -1,10 +1,13 @@
 body{
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
 h1, h3, h5{
     font-family: 'Montserrat';
 }
+
+/* navbar */
 
 .nav{
     display: flex;
@@ -20,7 +23,7 @@ h1, h3, h5{
    
 }
 
-.nav .chestii a{
+.menu-nav a{
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -28,7 +31,9 @@ h1, h3, h5{
 
 }
 
-img{
+/* header */
+
+.header-image{
     position: relative;
     top: 0px;
     width: 100%;
@@ -37,7 +42,7 @@ img{
 }
 
 
-.image h1{
+.header h1{
     position: absolute;
     top: 390px;
     left:470px;
@@ -45,75 +50,71 @@ img{
     
 }
 
-.image p{
+.header p{
     position: absolute;
     top: 460px;
     left: 340px;
     color: white;
 }
 
-.interior{
+/* engineering */
+
+.engineering-image{
     width: 255px;
     height: 360px;
     display: inline;
 }
 
+/* iconite */
+
 .icon-orange{
     color: #fd5f00;
     font-size: 24px;
 }
-
-.industry{
-    width: 190px;
-    height: 195px;
+/* cele 4 poze */
+.cards-image{
+    width: 200px;
+    height: 120px;
 }
 
-.card-alternative{
-    width: 50%;
+/* create si lemuri */
+.create-image{
+    width: 240px;
+    height: 340px;
 }
 
-.download{
+/* sectiune download */
+.download-part{
     background-color: #fd5f00;
-}
-
-.altele a{
-    color: #fd5f00 !important;
-}
-
-.background{
-    background-color: #f8f9fa;
-}
-
-.bookmark{
-    color: #fd5f00 ;
-}
-
-.read{
-    color: #fd5f00;
-}
+    color: white;}
 
 .download-button{
     color: white;
     background-color: #fd5f00;
     border: #eceaea solid 2px;
+    }
+
+
+/* footer */
+
+.footer-menu a{
+    color: #fd5f00 !important;
 }
 
-
-.dark-image{
-    width: 200px;
-    height: 200px;
+/* cele 3 carduri care au fundal gri */
+.background{
+    background-color: #f8f9fa;
 }
 
-.download-part{
-    background-color: #fd5f00;
-    color: white;
+/* h6 ce contin cuvantul bookmark */
+.bookmark{
+    color: #fd5f00 ;
 }
 
-.img-create{
-    height: 350px;
-    width: 280px;
+/* read more */
+.read{
+    color: #fd5f00;
 }
-
 
 
 
